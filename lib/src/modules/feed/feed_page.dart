@@ -19,7 +19,7 @@ class FeedPage extends StatelessWidget {
               style: Theme.of(context).textTheme.headlineLarge,
             ),
             ElevatedButton(
-              onPressed: () => context.go('details'),
+              onPressed: () => context.go('/feed/details'),
               child: const Text('Go to feed/details'),
             ),
           ],

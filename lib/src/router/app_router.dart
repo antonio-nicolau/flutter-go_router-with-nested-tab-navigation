@@ -30,7 +30,7 @@ final router = GoRouter(
               builder: (context, state) => const FeedPage(),
               routes: <RouteBase>[
                 GoRoute(
-                  path: 'detail',
+                  path: 'details',
                   builder: (context, state) {
                     return const DetailsPage(label: 'FeedDetails');
                   },
