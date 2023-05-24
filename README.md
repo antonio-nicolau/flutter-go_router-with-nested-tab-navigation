@@ -1,16 +1,22 @@
-# go_router_example
+# Flutter go_router with nested Tab navigation
 
-A new Flutter project.
+A Flutter app to show how to work with nested tab navigation using go_router package
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Check out my [Medium article](https://medium.com/@antonio.tioypedro1234/flutter-go-router-the-essential-guide-349ef39ec5b3)
 
-A few resources to get you started if this is your first Flutter project:
+Run this command to add `go_router`: 
+```
+flutter pub add go_router
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This will add a line like this to your package's pubspec.yaml:
+```
+dependencies:
+  go_router: ^7.1.1
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Demo Preview 
+
+![ezgif com-video-to-gif-2](https://github.com/antonio-nicolau/flutter-go_router-with-nested-TabBar/assets/67912928/9195a43e-7f0f-4d2d-b0d0-dbfc391126d3)
